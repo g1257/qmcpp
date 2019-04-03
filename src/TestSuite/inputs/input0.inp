@@ -10,7 +10,7 @@ IsPeriodicX=1
 IsPeriodicY=1
 Connectors 1 1.0
 Connectors 1 1.0
-
+OutputFile=test
 ChemicalPotential=0.0
 
 Model=HubbardOneOrbital
