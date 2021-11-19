@@ -459,7 +459,6 @@ private:
 
 	void calcExpV(VectorType& v,SizeType time,SpinEnum spin) const
 	{
-		RealType a = (spin == SPIN_UP) ? aUp_ : aDown_;
         RealType coef =  (spin == SPIN_UP) ? 1.0 : -1.0;
 		for (SizeType i = 0; i < v.size(); ++i)
             //v[i] = exp(a*spins_(time,i)+params_.mu*params_.beta/params_.ntimes);
